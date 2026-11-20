@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>???? ???????? ?????? | Boost Tomorrow</title>
+    <title>متجر المستقبل الرقمي | Boost Tomorrow</title>
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
@@ -101,7 +101,7 @@
         <div class="container mx-auto flex justify-between items-center px-2 sm:px-6">
             <span class="flex items-center gap-2">
                 <span class="animate-ping inline-flex h-2 w-2 rounded-full bg-emerald-400"></span>
-                ?? ????? ???? ?? 58 ????? | ????? ??? ???????? ????
+                🚀 توصيل سريع لـ 58 ولاية | الدفع عند الاستلام 🇩🇿
             </span>
             <div class="hidden md:flex items-center gap-6">
                 <a href="tel:0780564922" class="hover:text-cyan-300 transition-colors flex items-center gap-1.5">
@@ -121,19 +121,19 @@
             <!-- Brand Logo -->
             <a href="#" class="flex items-center gap-3 group">
                 <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-cyan-500 to-emerald-400 flex items-center justify-center text-slate-950 text-xl font-extrabold shadow-lg shadow-cyan-500/30 group-hover:scale-105 transition-transform">
-                    ?
+                    ⚡
                 </div>
                 <div>
                     <span class="text-xl sm:text-2xl font-black bg-gradient-to-r from-white via-slate-200 to-cyan-400 bg-clip-text text-transparent">
                         Boost <span class="text-cyan-400">Tomorrow</span>
                     </span>
-                    <span class="block text-[10px] text-slate-400 -mt-1 font-semibold tracking-wider">???? ???????? ??????</span>
+                    <span class="block text-[10px] text-slate-400 -mt-1 font-semibold tracking-wider">متجر المستقبل الرقمي</span>
                 </div>
             </a>
 
             <!-- Search Bar (Desktop) -->
             <div class="hidden lg:flex flex-1 max-w-md relative mx-6">
-                <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="???? ?? ????? ???????..." 
+                <input type="text" id="searchInput" onkeyup="filterProducts()" placeholder="ابحث عن منتجك المفضّل..." 
                     class="w-full bg-slate-900/80 border border-slate-700/70 rounded-full py-2 px-5 pr-11 text-sm text-slate-200 placeholder-slate-400 focus:outline-none focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 transition-all">
                 <i class="fa-solid fa-magnifying-glass absolute right-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
             </div>
@@ -143,7 +143,7 @@
                 <!-- Phone Quick Call Button -->
                 <a href="tel:0780564922" class="hidden sm:flex items-center gap-2 bg-slate-800/80 hover:bg-slate-700 text-slate-200 px-3.5 py-2 rounded-xl text-xs font-semibold border border-slate-700 transition-all">
                     <i class="fa-solid fa-headset text-cyan-400 text-sm"></i>
-                    <span>???? ???</span>
+                    <span>اتصل بنا</span>
                 </a>
 
                 <!-- Cart Icon Button -->
@@ -152,7 +152,7 @@
                         <i class="fa-solid fa-bag-shopping text-cyan-400 text-lg"></i>
                         <span id="cartCount" class="absolute -top-2 -right-2 bg-emerald-500 text-slate-950 font-black text-xs w-5 h-5 rounded-full flex items-center justify-center border-2 border-slate-950 scale-100 transition-transform">0</span>
                     </div>
-                    <span class="hidden sm:inline text-xs font-bold">?????</span>
+                    <span class="hidden sm:inline text-xs font-bold">السلة</span>
                 </button>
 
                 <!-- Mobile Menu Button -->
@@ -165,7 +165,7 @@
         <!-- Mobile Search Bar -->
         <div class="px-4 pb-3 lg:hidden">
             <div class="relative">
-                <input type="text" id="mobileSearchInput" onkeyup="syncAndFilter(this.value)" placeholder="???? ?? ????..." 
+                <input type="text" id="mobileSearchInput" onkeyup="syncAndFilter(this.value)" placeholder="ابحث عن منتج..." 
                     class="w-full bg-slate-900 border border-slate-700 rounded-xl py-2 px-4 pr-10 text-sm text-slate-200 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
                 <i class="fa-solid fa-magnifying-glass absolute right-3.5 top-1/2 -translate-y-1/2 text-slate-400"></i>
             </div>
@@ -175,16 +175,16 @@
     <!-- Mobile Nav Drawer -->
     <div id="mobileMenu" class="hidden fixed inset-0 z-50 bg-slate-950/90 backdrop-blur-xl flex-col p-6 space-y-6">
         <div class="flex justify-between items-center border-b border-slate-800 pb-4">
-            <span class="text-lg font-bold text-cyan-400">??????? ???????? ??</span>
+            <span class="text-lg font-bold text-cyan-400">القائمة الرئيسية 📌</span>
             <button onclick="toggleMobileMenu()" class="text-slate-400 hover:text-white text-2xl">
                 <i class="fa-solid fa-xmark"></i>
             </button>
         </div>
         <nav class="flex flex-col space-y-4 text-base font-semibold">
-            <a href="#hero" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">?? ????????</a>
-            <a href="#products" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">??? ???????? ???????</a>
-            <a href="#features" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">? ????????</a>
-            <a href="#contact" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">?? ????? ????</a>
+            <a href="#hero" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">🏠 الرئيسية</a>
+            <a href="#products" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">🛍️ المنتجات المميزة</a>
+            <a href="#features" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">✨ مميزاتنا</a>
+            <a href="#contact" onclick="toggleMobileMenu()" class="hover:text-cyan-400 transition-colors">📞 تواصل معنا</a>
         </nav>
         <div class="pt-6 border-t border-slate-800 space-y-3">
             <a href="tel:0780564922" class="w-full py-3 bg-emerald-600/20 text-emerald-400 border border-emerald-500/30 rounded-xl flex items-center justify-center gap-2 font-bold">
@@ -208,30 +208,30 @@
                 <!-- Hero Left Text Content -->
                 <div class="lg:col-span-7 text-center lg:text-right space-y-6">
                     <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/30 text-cyan-400 text-xs sm:text-sm font-bold">
-                        <span>?? ???? ??????? ????? ??????</span>
+                        <span>🔥 عروض وحصريات العام الجديد</span>
                         <span class="w-1.5 h-1.5 rounded-full bg-cyan-400 animate-pulse"></span>
                     </div>
                     
                     <h1 class="text-3xl sm:text-5xl lg:text-6xl font-black leading-tight">
-                        ????? ?????? ????? ?? 
+                        ارتقِ بأسلوب حياتك مع 
                         <span class="bg-gradient-to-r from-cyan-400 via-emerald-400 to-indigo-400 bg-clip-text text-transparent glow-text">
-                            ???? ???????? ???????
-                        </span> ??
+                            أفضل المنتجات الرقمية
+                        </span> 🚀
                     </h1>
                     
                     <p class="text-slate-300 text-sm sm:text-base lg:text-lg max-w-2xl leading-relaxed mx-auto lg:mx-0">
-                        ????? ???????? ??????? ?? ???? ??????? ?????? ????????? ??????? ??????? ?????? ???????. ????? ???? ?????? ????? ?????? ??????? ??? 58 ?? ???? ????!
+                        اكتشف تشكيلتنا الفاخرة من أحدث الأجهزة الذكية والملحقات التقنية الأصلية بأسعار تنافسية. توصيل سريع ومباشر لجميع ولايات الجزائر الـ 58 مع ضمان شامل!
                     </p>
 
                     <!-- CTAs -->
                     <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-4">
                         <a href="#products" class="w-full sm:w-auto px-8 py-3.5 bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 font-black rounded-xl hover:opacity-95 transition-all transform hover:-translate-y-1 glow-btn flex items-center justify-center gap-2">
-                            <span>???? ???? ??????? ????????</span>
+                            <span>تسوق الآن واستكشف المنتجات</span>
                             <i class="fa-solid fa-arrow-left"></i>
                         </a>
-                        <a href="https://wa.me/213780564922?text=???????%20???%20?????????%20??%20????????" target="_blank" class="w-full sm:w-auto px-6 py-3.5 bg-slate-900 hover:bg-slate-800 text-emerald-400 border border-emerald-500/30 font-bold rounded-xl transition-all flex items-center justify-center gap-2">
+                        <a href="https://wa.me/213780564922?text=مرحباً،%20أود%20الاستفسار%20عن%20منتجاتكم" target="_blank" class="w-full sm:w-auto px-6 py-3.5 bg-slate-900 hover:bg-slate-800 text-emerald-400 border border-emerald-500/30 font-bold rounded-xl transition-all flex items-center justify-center gap-2">
                             <i class="fa-brands fa-whatsapp text-lg"></i>
-                            <span>????? ???? ??????</span>
+                            <span>تواصل سريع واتساب</span>
                         </a>
                     </div>
 
@@ -239,15 +239,15 @@
                     <div class="grid grid-cols-3 gap-4 pt-8 border-t border-slate-800/80 max-w-lg mx-auto lg:mx-0">
                         <div class="text-center lg:text-right">
                             <h4 class="text-xl sm:text-2xl font-black text-cyan-400">+5000</h4>
-                            <p class="text-xs text-slate-400">???? ??? ??? ??</p>
+                            <p class="text-xs text-slate-400">زبون وثق بنا ⭐️</p>
                         </div>
                         <div class="text-center lg:text-right">
                             <h4 class="text-xl sm:text-2xl font-black text-emerald-400">58</h4>
-                            <p class="text-xs text-slate-400">????? ??? ????? ??</p>
+                            <p class="text-xs text-slate-400">ولاية نصل إليها 🚚</p>
                         </div>
                         <div class="text-center lg:text-right">
                             <h4 class="text-xl sm:text-2xl font-black text-purple-400">100%</h4>
-                            <p class="text-xs text-slate-400">?????? ?????? ???</p>
+                            <p class="text-xs text-slate-400">منتجات مضمونة 🛡️</p>
                         </div>
                     </div>
                 </div>
@@ -262,23 +262,23 @@
                             <div class="relative h-64 sm:h-72 rounded-2xl overflow-hidden group">
                                 <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80" alt="Hero Product" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
                                 <div class="absolute top-3 right-3 bg-emerald-500 text-slate-950 font-black text-xs px-3 py-1.5 rounded-full shadow-lg">
-                                    ?? ?????? ????? ?????
+                                    🔥 الأكثر طلباً اليوم
                                 </div>
                             </div>
                             
                             <div class="flex justify-between items-center">
                                 <div>
-                                    <h3 class="font-extrabold text-lg text-white">?????? AirPods Max Pro</h3>
-                                    <p class="text-xs text-slate-400">??? ????? ???? + ??? ????? HD</p>
+                                    <h3 class="font-extrabold text-lg text-white">سماعات AirPods Max Pro</h3>
+                                    <p class="text-xs text-slate-400">عزل ضوضاء فائق + صوت محيطي HD</p>
                                 </div>
                                 <div class="text-left">
-                                    <span class="block text-xl font-black text-cyan-400">14,500 <span class="text-xs font-normal">?.?</span></span>
-                                    <span class="text-xs text-slate-500 line-through">18,000 ?.?</span>
+                                    <span class="block text-xl font-black text-cyan-400">14,500 <span class="text-xs font-normal">د.ج</span></span>
+                                    <span class="text-xs text-slate-500 line-through">18,000 د.ج</span>
                                 </div>
                             </div>
                             
                             <button onclick="addToCart(1)" class="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black rounded-xl transition-colors flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-cart-plus"></i> ??? ????? ????
+                                <i class="fa-solid fa-cart-plus"></i> أضف للسلة الآن
                             </button>
                         </div>
                     </div>
@@ -293,19 +293,19 @@
         <div class="container mx-auto px-4 sm:px-6">
             <div class="flex items-center gap-2 overflow-x-auto pb-2 sm:pb-0 no-scrollbar justify-start sm:justify-center" id="categoryContainer">
                 <button onclick="filterCategory('all')" class="category-btn active border px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all bg-cyan-500 text-slate-950 border-cyan-400">
-                    ? ????
+                    ✨ الكل
                 </button>
                 <button onclick="filterCategory('audio')" class="category-btn border border-slate-700 text-slate-300 hover:border-slate-500 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all bg-slate-800/60">
-                    ?? ?????? ???????
+                    🎧 سماعات وصوتيات
                 </button>
                 <button onclick="filterCategory('wearables')" class="category-btn border border-slate-700 text-slate-300 hover:border-slate-500 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all bg-slate-800/60">
-                    ? ????? ????? ???
+                    ⌚ ساعات وسوار ذكي
                 </button>
                 <button onclick="filterCategory('gaming')" class="category-btn border border-slate-700 text-slate-300 hover:border-slate-500 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all bg-slate-800/60">
-                    ?? ?????? ???????
+                    🎮 ملحقات القيمنق
                 </button>
                 <button onclick="filterCategory('gadgets')" class="category-btn border border-slate-700 text-slate-300 hover:border-slate-500 px-4 py-2 rounded-xl text-xs sm:text-sm font-bold whitespace-nowrap transition-all bg-slate-800/60">
-                    ? ????? ??????????
+                    ⚡ شواحن وإكسسوارات
                 </button>
             </div>
         </div>
@@ -318,12 +318,12 @@
             <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 gap-4">
                 <div>
                     <h2 class="text-2xl sm:text-4xl font-black text-white flex items-center gap-3">
-                        <span>??? ???? ???????? ????????</span>
+                        <span>🛍️ أحدث المنتجات المتوفرة</span>
                     </h2>
-                    <p class="text-slate-400 text-xs sm:text-sm mt-1">???? ???????? ???????? ????? ??? ????? ?? ??????? ??????</p>
+                    <p class="text-slate-400 text-xs sm:text-sm mt-1">تصفح تشكيلتنا الممتازة واطلب بكل سهولة مع التوصيل السريع</p>
                 </div>
                 <span class="text-xs font-semibold text-cyan-400 bg-cyan-950/60 border border-cyan-800 px-3 py-1.5 rounded-lg w-fit">
-                    ??? <span id="productCount">8</span> ????
+                    عرض <span id="productCount">8</span> منتج
                 </span>
             </div>
 
@@ -342,25 +342,25 @@
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
                     <div class="space-y-4 text-center lg:text-right">
                         <span class="bg-red-500/20 text-red-400 border border-red-500/40 text-xs font-black px-3.5 py-1.5 rounded-full inline-block">
-                            ? ??? ????? ?????? ????!
+                            ⏳ عرض لفترة محدودة جداً!
                         </span>
                         <h3 class="text-2xl sm:text-4xl font-black text-white">
-                            ????? ??? <span class="text-cyan-400">%25</span> ??? ???? ????? ??? ???????
+                            تخفيض خاص <span class="text-cyan-400">%25</span> على كافة طلبات هذا الأسبوع
                         </h3>
                         <p class="text-slate-300 text-sm leading-relaxed">
-                            ???? ??? ??? ???? ???? ????? ?????? ????? ?? ?? ??? ???? ?? 10,000 ?.?. ?? ???? ?????? ?????? ?? ????? ??? ?????? ??????!
+                            احصل على شحن سريع مخفض لجميع ولايات الوطن مع كل طلب يزيد عن 10,000 د.ج. لا تفوت الفرصة واستفد من العرض قبل انتهاء الكمية!
                         </p>
                         <div class="pt-2 flex justify-center lg:justify-start gap-3">
                             <a href="tel:0780564922" class="px-6 py-3 bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-black rounded-xl text-sm transition-all flex items-center gap-2">
-                                <i class="fa-solid fa-phone"></i> ???? ???????: 0780564922
+                                <i class="fa-solid fa-phone"></i> اطلب هاتفياً: 0780564922
                             </a>
                         </div>
                     </div>
                     <div class="flex justify-center">
                         <div class="glass-card p-6 rounded-2xl text-center space-y-3 max-w-xs border border-indigo-500/30 w-full">
-                            <span class="text-5xl">??</span>
-                            <h4 class="font-bold text-white text-lg">????? ?????? ???????</h4>
-                            <p class="text-xs text-slate-400">?????? ????? ??? ??????? ????</p>
+                            <span class="text-5xl">🎁</span>
+                            <h4 class="font-bold text-white text-lg">كوبون الهدية المجاني</h4>
+                            <p class="text-xs text-slate-400">استخدم الكود عند التواصل معنا</p>
                             <div class="bg-slate-900 border border-dashed border-cyan-400 p-2.5 rounded-xl font-mono text-cyan-300 font-extrabold text-sm tracking-widest">
                                 BOOST2026
                             </div>
@@ -375,45 +375,45 @@
     <section id="features" class="py-16 bg-slate-900/40 border-t border-slate-800">
         <div class="container mx-auto px-4 sm:px-6">
             <div class="text-center max-w-xl mx-auto mb-12">
-                <h2 class="text-2xl sm:text-3xl font-black text-white">????? ????? ???? Boost Tomorrow? ?</h2>
-                <p class="text-slate-400 text-sm mt-2">???? ??? ????? ????? ???? ???? ?????? ????? ??????? ?? ???????</p>
+                <h2 class="text-2xl sm:text-3xl font-black text-white">لماذا تختار متجر Boost Tomorrow؟ ✨</h2>
+                <p class="text-slate-400 text-sm mt-2">نحرص على تقديم تجربة تسوق آمنة ومريحة لجميع زبائننا في الجزائر</p>
             </div>
 
             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                 <!-- Feature 1 -->
                 <div class="glass-panel p-6 rounded-2xl text-center space-y-3 hover:border-cyan-500/40 transition-all">
                     <div class="w-12 h-12 rounded-2xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-2xl mx-auto border border-cyan-500/20">
-                        ??
+                        🚚
                     </div>
-                    <h3 class="font-bold text-lg text-white">????? ???? 58 ?????</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">????? ????? ??? ??? ?????? ?? ?????? ?? ???? ??? ?????.</p>
+                    <h3 class="font-bold text-lg text-white">توصيل سريع 58 ولاية</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">نوصّل شحنتك حتى باب المنزل أو للمكتب في أسرع وقت قياسي.</p>
                 </div>
 
                 <!-- Feature 2 -->
                 <div class="glass-panel p-6 rounded-2xl text-center space-y-3 hover:border-emerald-500/40 transition-all">
                     <div class="w-12 h-12 rounded-2xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-2xl mx-auto border border-emerald-500/20">
-                        ??
+                        💵
                     </div>
-                    <h3 class="font-bold text-lg text-white">????? ??? ????????</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">?? ???? ????? ??? ???? ?????? ????? ????? ??? ????.</p>
+                    <h3 class="font-bold text-lg text-white">الدفع عند الاستلام</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">لا تدفع شيئاً حتى تفحص وتستلم منتجك بيديك بكل أمان.</p>
                 </div>
 
                 <!-- Feature 3 -->
                 <div class="glass-panel p-6 rounded-2xl text-center space-y-3 hover:border-purple-500/40 transition-all">
                     <div class="w-12 h-12 rounded-2xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-2xl mx-auto border border-purple-500/20">
-                        ???
+                        🛡️
                     </div>
-                    <h3 class="font-bold text-lg text-white">???? ????????</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">???? ???????? ????? ??????? ?????? ?? ??????? ?????????.</p>
+                    <h3 class="font-bold text-lg text-white">ضمان وموثوقية</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">جميع المنتجات مجربة ومضمونة الجودة مع إمكانية الاستبدال.</p>
                 </div>
 
                 <!-- Feature 4 -->
                 <div class="glass-panel p-6 rounded-2xl text-center space-y-3 hover:border-pink-500/40 transition-all">
                     <div class="w-12 h-12 rounded-2xl bg-pink-500/10 text-pink-400 flex items-center justify-center text-2xl mx-auto border border-pink-500/20">
-                        ??
+                        📞
                     </div>
-                    <h3 class="font-bold text-lg text-white">??? ?????? 24/7</h3>
-                    <p class="text-slate-400 text-xs leading-relaxed">?????? ?????? ?????? ???? ??? ?????? ??? ?????? ?????????.</p>
+                    <h3 class="font-bold text-lg text-white">دعم متواصل 24/7</h3>
+                    <p class="text-slate-400 text-xs leading-relaxed">فريقنا متواجد دائماً للرد على أسئلتك عبر الهاتف والواتساب.</p>
                 </div>
             </div>
         </div>
@@ -423,41 +423,41 @@
     <section class="py-14 border-t border-slate-800">
         <div class="container mx-auto px-4 sm:px-6">
             <div class="text-center max-w-xl mx-auto mb-10">
-                <h2 class="text-2xl sm:text-3xl font-black text-white">???? ??????? ???????? ??</h2>
-                <p class="text-slate-400 text-sm mt-1">????? ??????? ?? ???? ???? ??? ???? ???????</p>
+                <h2 class="text-2xl sm:text-3xl font-black text-white">آراء زبائننا الأوفياء 💬</h2>
+                <p class="text-slate-400 text-sm mt-1">تجربة زبائننا هي أفضل دليل على جودة خدماتنا</p>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="glass-panel p-6 rounded-2xl space-y-3 relative">
                     <div class="flex text-amber-400 text-sm gap-1">
-                        ?????
+                        ★★★★★
                     </div>
-                    <p class="text-slate-300 text-xs leading-relaxed">"????? ????? ???? ???? ???????? ??? ???? ?????? ?????. ?????? ??? ????? ?????? ???????? ???? ??????. ????? ???!"</p>
+                    <p class="text-slate-300 text-xs leading-relaxed">"صراحة تعامل راقي جداً والتوصيل كان سريع لولاية وهران. المنتج وصل بحالة ممتازة والتغليف محكم للغاية. شكراً لكم!"</p>
                     <div class="pt-2 border-t border-slate-800 flex items-center justify-between text-xs">
-                        <span class="font-bold text-white">????. ? - ?????</span>
-                        <span class="text-slate-500">?? ?????? ?</span>
+                        <span class="font-bold text-white">محمد. أ - وهران</span>
+                        <span class="text-slate-500">تم الشراء ✅</span>
                     </div>
                 </div>
 
                 <div class="glass-panel p-6 rounded-2xl space-y-3 relative">
                     <div class="flex text-amber-400 text-sm gap-1">
-                        ?????
+                        ★★★★★
                     </div>
-                    <p class="text-slate-300 text-xs leading-relaxed">"??????? ???? ?????? ????? ??????? ?????? ????. ????? ??? ???????? ?????? ??? ?????. ???????? ???? ???? ??????."</p>
+                    <p class="text-slate-300 text-xs leading-relaxed">"السماعة التي طلبتها أصلية وجودتها ممتازة جداً. الدفع عند الاستلام أعطاني ثقة كبيرة. بالتوفيق متجر بوست تومورو."</p>
                     <div class="pt-2 border-t border-slate-800 flex items-center justify-between text-xs">
-                        <span class="font-bold text-white">?????. ? - ??????? ???????</span>
-                        <span class="text-slate-500">?? ?????? ?</span>
+                        <span class="font-bold text-white">أمينة. ك - الجزائر العاصمة</span>
+                        <span class="text-slate-500">تم الشراء ✅</span>
                     </div>
                 </div>
 
                 <div class="glass-panel p-6 rounded-2xl space-y-3 relative">
                     <div class="flex text-amber-400 text-sm gap-1">
-                        ?????
+                        ★★★★★
                     </div>
-                    <p class="text-slate-300 text-xs leading-relaxed">"???? ???? ?????? ??? ???????? ??????? ????? ??? ???????? ?????? ???? ?????? ??????. ?????? ???????? ????."</p>
+                    <p class="text-slate-300 text-xs leading-relaxed">"أفضل متجر تعاملت معه هاتفياً، الإجابة سريعة على الواتساب والشرح وافي لخصائص الساعة. ننصحكم بالتعامل معهم."</p>
                     <div class="pt-2 border-t border-slate-800 flex items-center justify-between text-xs">
-                        <span class="font-bold text-white">????. ? - ???????</span>
-                        <span class="text-slate-500">?? ?????? ?</span>
+                        <span class="font-bold text-white">حمزة. ب - قسنطينة</span>
+                        <span class="text-slate-500">تم الشراء ✅</span>
                     </div>
                 </div>
             </div>
@@ -470,10 +470,10 @@
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
                 
                 <div class="lg:col-span-6 space-y-6">
-                    <span class="text-cyan-400 text-xs font-bold bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20">?? ????? ????? ?????</span>
-                    <h2 class="text-3xl sm:text-4xl font-black text-white">?? ???? ?? ??????? ?? ???? ????? ???????</h2>
+                    <span class="text-cyan-400 text-xs font-bold bg-cyan-500/10 px-3 py-1 rounded-full border border-cyan-500/20">📞 تواصل مباشر وسريع</span>
+                    <h2 class="text-3xl sm:text-4xl font-black text-white">هل لديك أي استفسار أو تريد الطلب مباشرة؟</h2>
                     <p class="text-slate-300 text-sm leading-relaxed">
-                        ??? ??? ???????? ??????! ????? ??????? ??? ?????? ??? ?????? ?? ???????? ??? ???????? ??????? ?????????? ??????? ??? ???? ???????? ???????? ?? ?????? ?????? ??????.
+                        نحن هنا لمساعدتك دائماً! يمكنك الاتصال بنا مباشرة عبر الهاتف أو مراسلتنا عبر الواتساب والبريد الإلكتروني للإجابة على جميع تساؤلاتك ومساعدتك في اختيار المنتج الأنسب.
                     </p>
 
                     <div class="space-y-4 pt-2">
@@ -482,7 +482,7 @@
                                 <i class="fa-solid fa-phone"></i>
                             </div>
                             <div>
-                                <span class="block text-xs text-slate-400">??? ?????? ??????</span>
+                                <span class="block text-xs text-slate-400">رقم الهاتف الرسمي</span>
                                 <span class="text-lg font-bold text-white group-hover:text-cyan-400 transition-colors" dir="ltr">0780 56 49 22</span>
                             </div>
                         </a>
@@ -492,7 +492,7 @@
                                 <i class="fa-solid fa-envelope"></i>
                             </div>
                             <div>
-                                <span class="block text-xs text-slate-400">?????? ??????????</span>
+                                <span class="block text-xs text-slate-400">البريد الإلكتروني</span>
                                 <span class="text-base font-bold text-white group-hover:text-indigo-400 transition-colors">abdoboostomorrow@gmail.com</span>
                             </div>
                         </a>
@@ -502,8 +502,8 @@
                                 <i class="fa-brands fa-whatsapp"></i>
                             </div>
                             <div>
-                                <span class="block text-xs text-slate-400">??????? ?????? ????????</span>
-                                <span class="text-base font-bold text-emerald-400">???? ???????? ?????? ??</span>
+                                <span class="block text-xs text-slate-400">محادثات واتساب المباشرة</span>
+                                <span class="text-base font-bold text-emerald-400">اضغط للمحادثة الآلية 💬</span>
                             </div>
                         </a>
                     </div>
@@ -513,26 +513,26 @@
                 <div class="lg:col-span-6">
                     <div class="glass-card p-6 sm:p-8 rounded-3xl border border-slate-700/70 space-y-5">
                         <h3 class="text-xl font-bold text-white flex items-center gap-2">
-                            <span>?? ???? ????? ?????</span>
+                            <span>✉️ أرسل رسالة سريعة</span>
                         </h3>
                         <form id="quickMessageForm" onsubmit="sendQuickMessage(event)" class="space-y-4">
                             <div>
-                                <label class="block text-xs font-semibold text-slate-300 mb-1">????? ??????</label>
-                                <input type="text" id="msgName" required placeholder="????: ???? ?? ???" 
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">الاسم الكامل</label>
+                                <input type="text" id="msgName" required placeholder="مثال: يونس بن علي" 
                                     class="w-full bg-slate-900 border border-slate-700 rounded-xl py-2.5 px-4 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
                             </div>
                             <div>
-                                <label class="block text-xs font-semibold text-slate-300 mb-1">??? ??????</label>
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">رقم الهاتف</label>
                                 <input type="tel" id="msgPhone" required placeholder="07XXXXXXXX" 
                                     class="w-full bg-slate-900 border border-slate-700 rounded-xl py-2.5 px-4 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500" dir="ltr">
                             </div>
                             <div>
-                                <label class="block text-xs font-semibold text-slate-300 mb-1">?? ????????? ?? ???????</label>
-                                <textarea id="msgContent" rows="3" required placeholder="???? ????? ?? ???? ???..." 
+                                <label class="block text-xs font-semibold text-slate-300 mb-1">نص الاستفسار أو الرسالة</label>
+                                <textarea id="msgContent" rows="3" required placeholder="اكتب سؤالك أو طلبك هنا..." 
                                     class="w-full bg-slate-900 border border-slate-700 rounded-xl py-2.5 px-4 text-sm text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500"></textarea>
                             </div>
                             <button type="submit" class="w-full py-3 bg-gradient-to-r from-cyan-500 to-emerald-500 text-slate-950 font-black rounded-xl hover:opacity-95 transition-all text-sm flex items-center justify-center gap-2">
-                                <i class="fa-solid fa-paper-plane"></i> ????? ??? ?????? ????
+                                <i class="fa-solid fa-paper-plane"></i> إرسال عبر واتساب الآن
                             </button>
                         </form>
                     </div>
@@ -547,15 +547,15 @@
         <div class="container mx-auto px-4 sm:px-6 space-y-8">
             <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
                 <div class="flex items-center gap-3">
-                    <div class="w-8 h-8 rounded-lg bg-cyan-500 flex items-center justify-center text-slate-950 font-bold text-lg">?</div>
+                    <div class="w-8 h-8 rounded-lg bg-cyan-500 flex items-center justify-center text-slate-950 font-bold text-lg">⚡</div>
                     <span class="text-lg font-black text-white">Boost Tomorrow</span>
                 </div>
 
                 <div class="flex flex-wrap justify-center gap-6 font-semibold">
-                    <a href="#hero" class="hover:text-cyan-400 transition-colors">????????</a>
-                    <a href="#products" class="hover:text-cyan-400 transition-colors">????????</a>
-                    <a href="#features" class="hover:text-cyan-400 transition-colors">????????</a>
-                    <a href="#contact" class="hover:text-cyan-400 transition-colors">???? ???</a>
+                    <a href="#hero" class="hover:text-cyan-400 transition-colors">الرئيسية</a>
+                    <a href="#products" class="hover:text-cyan-400 transition-colors">المنتجات</a>
+                    <a href="#features" class="hover:text-cyan-400 transition-colors">مميزاتنا</a>
+                    <a href="#contact" class="hover:text-cyan-400 transition-colors">اتصل بنا</a>
                 </div>
 
                 <div class="flex items-center gap-4 text-lg">
@@ -572,14 +572,14 @@
             </div>
 
             <div class="border-t border-slate-900 pt-6 text-center text-slate-500">
-                <p>© 2026 ???? ?????? ?????? | ???? Boost Tomorrow Digital</p>
-                <p class="mt-1">??? ??????: 0780564922 | ?????? ??????????: abdoboostomorrow@gmail.com</p>
+                <p>© 2026 جميع الحقوق محفوظة | متجر Boost Tomorrow Digital</p>
+                <p class="mt-1">رقم الهاتف: 0780564922 | البريد الإلكتروني: abdoboostomorrow@gmail.com</p>
             </div>
         </div>
     </footer>
 
     <!-- Floating WhatsApp Action Button -->
-    <a href="https://wa.me/213780564922?text=???????%20????%20?????????%20??%20????" target="_blank" 
+    <a href="https://wa.me/213780564922?text=مرحباً،%20أريد%20الاستفسار%20عن%20منتج" target="_blank" 
        class="fixed bottom-6 right-6 z-40 bg-emerald-500 hover:bg-emerald-400 text-slate-950 w-14 h-14 rounded-full flex items-center justify-center text-2xl shadow-xl shadow-emerald-500/30 transition-transform hover:scale-110">
         <i class="fa-brands fa-whatsapp"></i>
     </a>
@@ -592,7 +592,7 @@
             <div>
                 <div class="flex items-center justify-between pb-4 border-b border-slate-800">
                     <h3 class="text-xl font-black text-white flex items-center gap-2">
-                        <span>?? ??? ?????????</span>
+                        <span>🛒 سلة المشتريات</span>
                         <span id="cartDrawerCount" class="text-xs bg-cyan-500/20 text-cyan-400 px-2 py-0.5 rounded-full border border-cyan-500/30">0</span>
                     </h3>
                     <button onclick="toggleCartModal()" class="text-slate-400 hover:text-white text-xl p-1">
@@ -610,47 +610,47 @@
             <div class="border-t border-slate-800 pt-4 space-y-4">
                 <div class="space-y-2 bg-slate-950 p-3.5 rounded-xl border border-slate-800">
                     <div class="flex justify-between text-xs text-slate-400">
-                        <span>????? ????????:</span>
-                        <span id="cartSubtotal" class="font-bold text-slate-200">0 ?.?</span>
+                        <span>مجموع المنتجات:</span>
+                        <span id="cartSubtotal" class="font-bold text-slate-200">0 د.ج</span>
                     </div>
                     <div class="flex justify-between text-xs text-slate-400">
-                        <span>????? ????? (58 ?????):</span>
-                        <span class="font-bold text-emerald-400">??? ??????? ??</span>
+                        <span>تقدير الشحن (58 ولاية):</span>
+                        <span class="font-bold text-emerald-400">حسب الولاية 🚚</span>
                     </div>
                     <div class="flex justify-between text-sm font-black text-white border-t border-slate-800 pt-2">
-                        <span>???????? ?????:</span>
-                        <span id="cartTotal" class="text-cyan-400 text-lg">0 ?.?</span>
+                        <span>الإجمالي الكلي:</span>
+                        <span id="cartTotal" class="text-cyan-400 text-lg">0 د.ج</span>
                     </div>
                 </div>
 
                 <!-- Customer Order Details Input -->
                 <div class="space-y-3 bg-slate-950 p-4 rounded-xl border border-slate-800 text-xs">
-                    <h4 class="font-extrabold text-white text-sm">?? ??????? ????? ????????</h4>
+                    <h4 class="font-extrabold text-white text-sm">📋 معلومات الشحن والتوصيل</h4>
                     <div>
-                        <input type="text" id="custName" placeholder="????? ?????? *" 
+                        <input type="text" id="custName" placeholder="الاسم الكامل *" 
                             class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
                     </div>
                     <div>
-                        <input type="tel" id="custPhone" placeholder="??? ?????? (????? ???????) *" dir="ltr" 
+                        <input type="tel" id="custPhone" placeholder="رقم الهاتف (ضروري للاتصال) *" dir="ltr" 
                             class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
                     </div>
                     <div>
                         <select id="custWilaya" class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-slate-200 focus:outline-none focus:border-cyan-500">
-                            <option value="">???? ??????? (58 ?????) *</option>
-                            <option value="16 - ??????? ???????">16 - ??????? ???????</option>
-                            <option value="09 - ???????">09 - ???????</option>
-                            <option value="31 - ?????">31 - ?????</option>
-                            <option value="25 - ???????">25 - ???????</option>
-                            <option value="19 - ????">19 - ????</option>
-                            <option value="15 - ???? ???">15 - ???? ???</option>
-                            <option value="06 - ?????">06 - ?????</option>
-                            <option value="30 - ?????">30 - ?????</option>
-                            <option value="03 - ???????">03 - ???????</option>
-                            <option value="????? ????">????? ???? (????? ???????)</option>
+                            <option value="">اختر الولاية (58 ولاية) *</option>
+                            <option value="16 - الجزائر العاصمة">16 - الجزائر العاصمة</option>
+                            <option value="09 - البليدة">09 - البليدة</option>
+                            <option value="31 - وهران">31 - وهران</option>
+                            <option value="25 - قسنطينة">25 - قسنطينة</option>
+                            <option value="19 - سطيف">19 - سطيف</option>
+                            <option value="15 - تيزي وزو">15 - تيزي وزو</option>
+                            <option value="06 - بجاية">06 - بجاية</option>
+                            <option value="30 - ورقلة">30 - ورقلة</option>
+                            <option value="03 - الأغواط">03 - الأغواط</option>
+                            <option value="ولاية أخرى">ولاية أخرى (تحديد العنوان)</option>
                         </select>
                     </div>
                     <div>
-                        <input type="text" id="custAddress" placeholder="??????? ?? ??????? ?????????" 
+                        <input type="text" id="custAddress" placeholder="العنوان أو البلدية التفصيلية" 
                             class="w-full bg-slate-900 border border-slate-700 rounded-lg p-2.5 text-slate-100 placeholder-slate-500 focus:outline-none focus:border-cyan-500">
                     </div>
                 </div>
@@ -658,10 +658,10 @@
                 <!-- Submit Buttons -->
                 <div class="grid grid-cols-2 gap-2 pt-1">
                     <button onclick="submitOrder('whatsapp')" class="py-3 bg-emerald-600 hover:bg-emerald-500 text-white font-extrabold rounded-xl text-xs flex items-center justify-center gap-1.5 transition-all shadow-lg shadow-emerald-600/20">
-                        <i class="fa-brands fa-whatsapp text-sm"></i> ????? ????? ?????????
+                        <i class="fa-brands fa-whatsapp text-sm"></i> تأكيد الطلب بالواتساب
                     </button>
                     <button onclick="submitOrder('email')" class="py-3 bg-indigo-600 hover:bg-indigo-500 text-white font-extrabold rounded-xl text-xs flex items-center justify-center gap-1.5 transition-all shadow-lg shadow-indigo-600/20">
-                        <i class="fa-solid fa-envelope text-sm"></i> ????? ???????
+                        <i class="fa-solid fa-envelope text-sm"></i> تأكيد بالبريد
                     </button>
                 </div>
             </div>
@@ -687,99 +687,99 @@
         const products = [
             {
                 id: 1,
-                name: "?????? AirPods Max Pro Wireless",
+                name: "سماعات AirPods Max Pro Wireless",
                 category: "audio",
                 price: 14500,
                 oldPrice: 18000,
                 image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
-                badge: "?? ?????? ??????",
+                badge: "🔥 الأكثر مبيعاً",
                 badgeColor: "bg-emerald-500 text-slate-950",
                 rating: 4.9,
-                description: "?????? ??? ??????? ???????? ?????? ???? ???? ????? ???? ?????. ????? ??? ??????? ????? ????? ???????? ??? 20 ???? ??????? ?? ?????."
+                description: "سماعات رأس لاسلكية احترافية بتصميم أنيق وصوت محيطي عالي الدقة. تقنية عزل الضوضاء النشط وتدوم البطارية حتى 20 ساعة متواصلة من العمل."
             },
             {
                 id: 2,
-                name: "???? ???? Smart Watch Ultra 9",
+                name: "ساعة ذكية Smart Watch Ultra 9",
                 category: "wearables",
                 price: 6800,
                 oldPrice: 8900,
                 image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
-                badge: "? ????",
+                badge: "✨ جديد",
                 badgeColor: "bg-cyan-500 text-slate-950",
                 rating: 4.8,
-                description: "???? ???? ????? OLED ????? ??????? ???? ????? ????? ????????? ????????? ????????? ???? ?? ????? ??????? ???????."
+                description: "ساعة ذكية بشاشة OLED عالية الوضوح، تتبع نبضات القلب والأكسجين والتمارين الرياضية، شاشة ضد الماء ومقاومة للصدمات."
             },
             {
                 id: 3,
-                name: "???? ????? RGB ????????? 16000DPI",
+                name: "ماوس قيمنق RGB الاحترافي 16000DPI",
                 category: "gaming",
                 price: 4200,
                 oldPrice: 5500,
                 image: "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&q=80",
-                badge: "?? ??? 24%",
+                badge: "💥 خصم 24%",
                 badgeColor: "bg-purple-500 text-white",
                 rating: 4.7,
-                description: "???? ????? ??????? ???? ???? ????? ??????? ?????. ????? RGB ????? ??????? ?????? ??????? ?????."
+                description: "فأرة ألعاب بمستشعر بصري دقيق وسرعة استجابة فائقة. إضاءة RGB قابلة للتخصيص وأزرار جيوستيك سريعة."
             },
             {
                 id: 4,
-                name: "?????? ???????? RGB Wireless",
+                name: "كيبورد ميكانيكي RGB Wireless",
                 category: "gaming",
                 price: 8900,
                 oldPrice: 11000,
                 image: "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80",
-                badge: "? ????",
+                badge: "⭐ حصري",
                 badgeColor: "bg-amber-500 text-slate-950",
                 rating: 5.0,
-                description: "???? ?????? ????????? ???????? ????? ?????? ??????? ????? ????? ????????? ??????? ??????? ??? ?? ?????."
+                description: "لوحة مفاتيح ميكانيكية بسويتشات زرقاء للملمس الممتاز أثناء اللعب والكتابة، استجابة لاسلكية دون أي تأخير."
             },
             {
                 id: 5,
-                name: "???? ??? ???? 20000mAh 65W PD",
+                name: "باور بنك سريع 20000mAh 65W PD",
                 category: "gadgets",
                 price: 5500,
                 oldPrice: 7000,
                 image: "https://images.unsplash.com/photo-1609592424074-b5860d5b780d?w=800&q=80",
-                badge: "? ??? ????",
+                badge: "⚡ شحن سريع",
                 badgeColor: "bg-cyan-600 text-white",
                 rating: 4.8,
-                description: "?????? ?????? ????? ????? ????? 65 ??? ???? ??????? ????????? ???????? ?????? ????? ????."
+                description: "بطارية خارجية سريعة الشحن بقدرة 65 واط لشحن الهواتف والحواسيب المحمولة بسهولة وأمان عالي."
             },
             {
                 id: 6,
-                name: "?????? ?????? ???? Wi-Fi 4K",
+                name: "كاميرا مراقبة ذكية Wi-Fi 4K",
                 category: "gadgets",
                 price: 9200,
                 oldPrice: 11500,
                 image: "https://images.unsplash.com/photo-1557862921-37829c790f19?w=800&q=80",
-                badge: "??? ???? ?????",
+                badge: "🛡️ أمان ممتاز",
                 badgeColor: "bg-emerald-600 text-white",
                 rating: 4.9,
-                description: "?????? ???? ??????? ???? ?????? ??????? ???????? ?????????? ???????? ?????? ??? ?????? ?? ????."
+                description: "كاميرا ذكية لاسلكية تدعم الرؤية الليلية بالألوان والتنبيهات المباشرة للهاتف عند اكتشاف أي حركة."
             },
             {
                 id: 7,
-                name: "???? ???? ???????? MagSafe ???????",
+                name: "حامل هاتف مغناطيسي MagSafe للسيارة",
                 category: "gadgets",
                 price: 2400,
                 oldPrice: 3200,
                 image: "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800&q=80",
-                badge: "?? ????????",
+                badge: "🚗 للسيارات",
                 badgeColor: "bg-slate-700 text-white",
                 rating: 4.6,
-                description: "???? ???? ??? ??????? ???????? ???????? ?? ??????? ??????? ??? ???? ?????? ???????? 360 ????."
+                description: "حامل هاتف قوي التثبيت بمغناطيس نيويميوم مع إمكانية التثبيت على فتحة المكيف والدوران 360 درجة."
             },
             {
                 id: 8,
-                name: "????? ???? RGB Smart Desk Lamp",
+                name: "إضاءة نيون RGB Smart Desk Lamp",
                 category: "audio",
                 price: 3900,
                 oldPrice: 4800,
                 image: "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800&q=80",
-                badge: "?? ?????",
+                badge: "🎨 ديكور",
                 badgeColor: "bg-pink-500 text-white",
                 rating: 4.7,
-                description: "????? ?????? ???? ? ???? ??????? ????? ?????? ?? ???????? ?????? ???? ???????? ?????? ?? ?????."
+                description: "إضاءة مكتبية ذكية م ميزة بمؤثرات ضوئية وتزامن مع الموسيقى لإعطاء لمسة سينمائية لغرفتك أو مكتبك."
             }
         ];
 
@@ -795,9 +795,9 @@
             if (itemsToRender.length === 0) {
                 grid.innerHTML = `
                     <div class="col-span-full text-center py-12 text-slate-400 space-y-3">
-                        <span class="text-4xl">??</span>
-                        <p class="text-base font-bold">?????? ?? ??? ?? ???? ????? ????!</p>
-                        <button onclick="resetFilters()" class="text-xs text-cyan-400 underline font-bold">????? ????? ?? ????????</button>
+                        <span class="text-4xl">🔍</span>
+                        <p class="text-base font-bold">عذراً، لم نجد أي منتج يطابق بحثك!</p>
+                        <button onclick="resetFilters()" class="text-xs text-cyan-400 underline font-bold">إعادة إظهار كل المنتجات</button>
                     </div>
                 `;
                 return;
@@ -811,7 +811,7 @@
                             ${p.badge}
                         </span>
                         <button onclick="openProductModal(${p.id})" class="absolute bottom-3 left-3 bg-slate-900/80 hover:bg-slate-900 text-slate-200 text-xs px-2.5 py-1.5 rounded-lg backdrop-blur-md flex items-center gap-1.5 transition-colors">
-                            <i class="fa-solid fa-eye text-cyan-400"></i> ??????
+                            <i class="fa-solid fa-eye text-cyan-400"></i> معاينة
                         </button>
                     </div>
 
@@ -827,11 +827,11 @@
 
                         <div class="pt-2 border-t border-slate-800/80 flex items-center justify-between">
                             <div>
-                                <span class="block text-lg font-black text-cyan-400">${p.price.toLocaleString()} <span class="text-xs font-normal">?.?</span></span>
-                                ${p.oldPrice ? `<span class="text-xs text-slate-500 line-through">${p.oldPrice.toLocaleString()} ?.?</span>` : ''}
+                                <span class="block text-lg font-black text-cyan-400">${p.price.toLocaleString()} <span class="text-xs font-normal">د.ج</span></span>
+                                ${p.oldPrice ? `<span class="text-xs text-slate-500 line-through">${p.oldPrice.toLocaleString()} د.ج</span>` : ''}
                             </div>
                             <button onclick="addToCart(${p.id})" class="bg-cyan-500/10 hover:bg-cyan-500 text-cyan-400 hover:text-slate-950 border border-cyan-500/30 p-2.5 rounded-xl transition-all font-bold text-xs flex items-center gap-1.5">
-                                <i class="fa-solid fa-cart-plus"></i> ???
+                                <i class="fa-solid fa-cart-plus"></i> أضف
                             </button>
                         </div>
                     </div>
@@ -890,7 +890,7 @@
             }
 
             updateCartUI();
-            showToast(`??? ????? "${product.name}" ??? ????? ??`);
+            showToast(`تمت إضافة "${product.name}" إلى السلة 🛒`);
         }
 
         // Update Cart UI
@@ -900,15 +900,15 @@
 
             document.getElementById('cartCount').innerText = count;
             document.getElementById('cartDrawerCount').innerText = count;
-            document.getElementById('cartSubtotal').innerText = `${subtotal.toLocaleString()} ?.?`;
-            document.getElementById('cartTotal').innerText = `${subtotal.toLocaleString()} ?.?`;
+            document.getElementById('cartSubtotal').innerText = `${subtotal.toLocaleString()} د.ج`;
+            document.getElementById('cartTotal').innerText = `${subtotal.toLocaleString()} د.ج`;
 
             const container = document.getElementById('cartItems');
             if (cart.length === 0) {
                 container.innerHTML = `
                     <div class="text-center py-8 text-slate-500 space-y-2">
                         <i class="fa-solid fa-basket-shopping text-3xl opacity-50"></i>
-                        <p class="text-xs">????? ????? ??????</p>
+                        <p class="text-xs">السلة فارغة حالياً</p>
                     </div>
                 `;
                 return;
@@ -919,7 +919,7 @@
                     <img src="${item.image}" alt="${item.name}" class="w-12 h-12 rounded-lg object-cover">
                     <div class="flex-1 min-w-0">
                         <h4 class="text-xs font-bold text-white truncate">${item.name}</h4>
-                        <span class="text-xs text-cyan-400 font-bold">${(item.price * item.quantity).toLocaleString()} ?.?</span>
+                        <span class="text-xs text-cyan-400 font-bold">${(item.price * item.quantity).toLocaleString()} د.ج</span>
                     </div>
                     <div class="flex items-center gap-2 bg-slate-900 border border-slate-700 px-2 py-1 rounded-lg">
                         <button onclick="changeQty(${item.id}, -1)" class="text-slate-400 hover:text-white text-xs font-bold px-1">-</button>
@@ -949,7 +949,7 @@
         function removeFromCart(id) {
             cart = cart.filter(i => i.id !== id);
             updateCartUI();
-            showToast("?? ??? ?????? ?? ?????");
+            showToast("تم حذف المنتج من السلة");
         }
 
         // Modals Toggle
@@ -979,11 +979,11 @@
                         <h3 class="text-xl font-black text-white">${p.name}</h3>
                         <p class="text-xs text-slate-300 leading-relaxed">${p.description}</p>
                         <div class="text-2xl font-black text-cyan-400">
-                            ${p.price.toLocaleString()} <span class="text-xs font-normal">?.?</span>
+                            ${p.price.toLocaleString()} <span class="text-xs font-normal">د.ج</span>
                         </div>
                         <div class="pt-2">
                             <button onclick="addToCart(${p.id}); closeProductModal();" class="w-full py-3 bg-cyan-500 hover:bg-cyan-400 text-slate-950 font-black rounded-xl transition-all flex items-center justify-center gap-2 text-sm">
-                                <i class="fa-solid fa-cart-plus"></i> ?????? ?????? ?????
+                                <i class="fa-solid fa-cart-plus"></i> إضافـة للسلـة وحفـظ
                             </button>
                         </div>
                     </div>
@@ -1001,7 +1001,7 @@
             const container = document.getElementById('toast-container');
             const toast = document.createElement('div');
             toast.className = 'glass-panel text-white text-xs font-bold px-4 py-3 rounded-xl border border-cyan-500/40 shadow-xl flex items-center gap-2 transform transition-all duration-300 translate-x-[-100%]';
-            toast.innerHTML = `<span>?</span> <span>${message}</span>`;
+            toast.innerHTML = `<span>✨</span> <span>${message}</span>`;
             
             container.appendChild(toast);
             
@@ -1018,7 +1018,7 @@
         // Submit Order to WhatsApp or Email
         function submitOrder(type) {
             if (cart.length === 0) {
-                showToast("?? ????? ?????! ???? ????? ?????? ?????.");
+                showToast("⚠️ السلة فارغة! يرجى إضافة منتجات أولاً.");
                 return;
             }
 
@@ -1028,33 +1028,33 @@
             const address = document.getElementById('custAddress').value.trim();
 
             if (!name || !phone || !wilaya) {
-                showToast("?? ???? ??? ????? ???? ?????? ???????? ?????? ?????!");
+                showToast("⚠️ يرجى ملء الاسم ورقم الهاتف والولاية لتأكيد الطلب!");
                 return;
             }
 
             const total = cart.reduce((t, i) => t + (i.price * i.quantity), 0);
-            let itemsText = cart.map(i => `• ${i.name} (?????: ${i.quantity}) - ${i.price * i.quantity} ?.?`).join('\n');
+            let itemsText = cart.map(i => `• ${i.name} (العدد: ${i.quantity}) - ${i.price * i.quantity} د.ج`).join('\n');
 
-            const message = `??? ???? ?? ?????? ?????? Boost Tomorrow ??\n\n` +
-                `?? ??????: ${name}\n` +
-                `?? ??????: ${phone}\n` +
-                `?? ???????: ${wilaya}\n` +
-                `?? ??????? ????????: ${address || '?? ????'}\n\n` +
-                `?? ???????? ????????:\n${itemsText}\n\n` +
-                `?? ??????? ?????: ${total.toLocaleString()} ?.?`;
+            const message = `طلب جديد من المتجر الرقمي Boost Tomorrow 🚀\n\n` +
+                `👤 الزبون: ${name}\n` +
+                `📞 الهاتف: ${phone}\n` +
+                `📍 الولاية: ${wilaya}\n` +
+                `🏠 العنوان التفصيلي: ${address || 'لم يحدد'}\n\n` +
+                `📦 المنتجات المطلوبة:\n${itemsText}\n\n` +
+                `💰 المجموع الكلي: ${total.toLocaleString()} د.ج`;
 
             if (type === 'whatsapp') {
                 const encoded = encodeURIComponent(message);
                 const waUrl = `https://wa.me/213780564922?text=${encoded}`;
                 window.open(waUrl, '_blank');
             } else if (type === 'email') {
-                const subject = encodeURIComponent(`??? ???? ??: ${name}`);
+                const subject = encodeURIComponent(`طلب جديد من: ${name}`);
                 const body = encodeURIComponent(message);
                 const mailUrl = `mailto:abdoboostomorrow@gmail.com?subject=${subject}&body=${body}`;
                 window.location.href = mailUrl;
             }
 
-            showToast("???? ????? ????? ?????... ??");
+            showToast("جاري توجيه الطلب بنجاح... 🚀");
             toggleCartModal();
         }
 
@@ -1065,7 +1065,7 @@
             const phone = document.getElementById('msgPhone').value;
             const text = document.getElementById('msgContent').value;
 
-            const msg = `??????? ???? ?? ?????? ??\n\n?????: ${name}\n??????: ${phone}\n???????:\n${text}`;
+            const msg = `استفسار جديد من الموقع 📩\n\nالاسم: ${name}\nالهاتف: ${phone}\nالرسالة:\n${text}`;
             const url = `https://wa.me/213780564922?text=${encodeURIComponent(msg)}`;
             window.open(url, '_blank');
         }
